@@ -7,10 +7,9 @@
     "directories" : {
         "example" : "example"
     },
-    "dependencies" : {
-        "sockjs" : "0.3.7"
-    },
-    "bundledDependencies" : [ "sockjs-client" ],
+    "dependencies": { 
+        "sockjs": "0.3.7", "sockjs-client": "1.1.4" }, 
+    "bundledDependencies": false,    
     "devDependencies" : {
         "through": "~2.3.4",
         "tape": "~1.0.4",
